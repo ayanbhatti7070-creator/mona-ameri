@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#24332c">
+<title>Mona Ameri | LinkedIn Positioning Review</title>
+<style>
+:root{--ink:#22251f;--muted:#66695f;--paper:#f7f5ef;--card:#fffdf8;--line:#ddd9ce;--green:#34483b;--olive:#8a7951;--pale:#e9e4d7;--serif:Georgia,"Times New Roman",serif;--sans:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.6}
+a{color:inherit}
+button{font:inherit}
+.shell{max-width:1180px;margin:auto;padding:0 28px}
+.topbar{position:sticky;top:0;z-index:10;background:rgba(247,245,239,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav{min-height:68px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{font-family:var(--serif);font-size:18px;letter-spacing:.04em}
+.navlinks{display:flex;gap:22px;align-items:center}
+.navlinks a{text-decoration:none;color:var(--muted);font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+.navlinks a:hover,.navlinks a.active{color:var(--green)}
+.hero{padding:82px 0 64px;background:var(--green);color:#f8f5ec;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;width:440px;height:440px;border:1px solid rgba(224,210,173,.25);border-radius:50%;right:-120px;top:-180px;box-shadow:0 0 0 42px rgba(224,210,173,.035),0 0 0 90px rgba(224,210,173,.025)}
+.eyebrow{text-transform:uppercase;letter-spacing:.18em;font-size:11px;font-weight:700;color:#c9b98e}
+.hero h1{font:clamp(42px,6vw,76px)/1.02 var(--serif);letter-spacing:-.04em;max-width:800px;margin:18px 0 24px}
+.hero p{max-width:650px;color:#e1e2d8;font-size:17px;margin:0}
+.hero-meta{display:flex;flex-wrap:wrap;gap:10px;margin-top:34px}
+.pill{border:1px solid rgba(255,255,255,.24);border-radius:999px;padding:8px 13px;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:#e5dfcf}
+.hero-note{position:relative;z-index:1;margin-top:38px;color:#d6d4c9;font-size:12px}
+.section{padding:72px 0;border-bottom:1px solid var(--line)}
+.section-head{display:grid;grid-template-columns:180px 1fr;gap:28px;margin-bottom:32px}
+.section-kicker{color:var(--olive);font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;padding-top:9px}
+.section h2{font:clamp(30px,4vw,46px)/1.08 var(--serif);letter-spacing:-.025em;margin:0 0 12px}
+.lead{color:var(--muted);max-width:760px;margin:0}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);padding:24px;border-radius:4px;min-width:0}
+.card .number{font:italic 28px var(--serif);color:var(--olive)}
+.card h3{font:22px/1.2 var(--serif);margin:10px 0}
+.card p,.card li{font-size:14px;color:var(--muted)}
+.comparison{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.compare{padding:26px;border:1px solid var(--line);background:var(--card)}
+.compare.current{background:#eeece5}
+.label{font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--olive);font-weight:800}
+.compare h3{font:25px/1.25 var(--serif);margin:14px 0}
+.copybox{background:var(--card);border:1px solid var(--line);padding:26px;border-radius:4px}
+.copybox p{white-space:pre-line}
+.headline-list{display:grid;gap:12px}
+.headline{display:grid;grid-template-columns:44px 1fr auto;gap:18px;align-items:center;background:var(--card);border:1px solid var(--line);padding:20px}
+.headline-num{font:italic 25px var(--serif);color:var(--olive)}
+.headline h3{font:21px/1.35 var(--serif);margin:0 0 5px}
+.headline p{font-size:12px;color:var(--muted);margin:0}
+.copy-btn{border:1px solid var(--green);background:transparent;color:var(--green);padding:9px 13px;border-radius:2px;font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;white-space:nowrap}
+.copy-btn:hover{background:var(--green);color:white}
+.copy-btn:focus-visible,a:focus-visible{outline:3px solid #b6a16c;outline-offset:3px}
+.small-note{font-size:12px;color:var(--muted)}
+.feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.feature{border-top:3px solid var(--olive);padding:22px;background:var(--card);border-right:1px solid var(--line);border-bottom:1px solid var(--line);border-left:1px solid var(--line)}
+.feature h3{font:23px var(--serif);margin:10px 0}
+.banner-direction{display:grid;grid-template-columns:70px 1fr;gap:20px;padding:22px 0;border-bottom:1px solid var(--line)}
+.banner-direction:last-child{border-bottom:0}
+.banner-direction .num{font:italic 36px var(--serif);color:var(--olive)}
+.banner-direction h3{font:25px var(--serif);margin:0 0 7px}
+.banner-direction p{margin:4px 0;color:var(--muted);font-size:14px}
+.prompt{margin-top:10px;background:#eeece5;border:1px solid var(--line);padding:14px;font-size:12px;color:#4c5047;white-space:pre-wrap;overflow-wrap:anywhere}
+.footer{padding:36px 0 54px;color:var(--muted);font-size:12px}
+.footer strong{color:var(--ink)}
+.tag{display:inline-block;background:var(--pale);color:var(--green);font-size:10px;letter-spacing:.1em;text-transform:uppercase;padding:5px 8px;margin-bottom:8px}
+.notice{border-left:3px solid var(--olive);padding:14px 18px;background:#eeece5;color:#55584f;font-size:13px;margin-top:16px}
+.reveal{opacity:0;transform:translateY(14px);transition:opacity .55s ease,transform .55s ease}
+.reveal.visible{opacity:1;transform:none}
+@media(max-width:800px){
+.nav{align-items:flex-start;padding:16px 0;flex-direction:column}
+.navlinks{width:100%;overflow-x:auto;gap:17px;padding-bottom:4px}
+.navlinks a{white-space:nowrap}
+.hero{padding:60px 0 48px}
+.section{padding:52px 0}
+.section-head{grid-template-columns:1fr;gap:10px}
+.grid,.feature-grid{grid-template-columns:1fr}
+.comparison{grid-template-columns:1fr}
+.headline{grid-template-columns:30px 1fr;gap:12px}
+.headline .copy-btn{grid-column:2;justify-self:start}
+.banner-direction{grid-template-columns:42px 1fr;gap:12px}
+.shell{padding:0 18px}
+}
+@media(prefers-reduced-motion:reduce){
+html{scroll-behavior:auto}
+*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+.reveal{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+<header class="topbar">
+<div class="shell nav">
+<div class="brand">Mona Ameri <span style="color:var(--olive)">/</span> Positioning Review</div>
+<nav class="navlinks" aria-label="Page navigation">
+<a href="#overview">Overview</a><a href="#positioning">Positioning</a><a href="#headline">Headline</a><a href="#about">About</a><a href="#featured">Featured</a><a href="#banner">Banner</a>
+</nav>
+</div>
+</header>
+<main>
+<section class="hero" id="overview">
+<div class="shell">
+<div class="eyebrow">LinkedIn Positioning Review</div>
+<h1>A more distinctive story for Salt &amp; Silk Luxury.</h1>
+<p>Prepared for Mona Ameri. A positioning direction that makes the value of bespoke grazing, elevated gifting, and thoughtfully produced gatherings easier to understand at a glance.</p>
+<div class="hero-meta"><span class="pill">Founder-led brand</span><span class="pill">Luxury hospitality</span><span class="pill">Las Vegas</span></div>
+<div class="hero-note">A practical profile refresh built around the work Salt &amp; Silk already shares publicly.</div>
+</div>
+</section>
+<section class="section">
+<div class="shell">
+<div class="section-head">
+<div class="section-kicker">01 / Key opportunity</div>
+<div><h2>Make the experience, not just the title, memorable.</h2><p class="lead">The clearest story is not simply that Mona is a founder. It is that Salt &amp; Silk turns gatherings and gifting into carefully styled, ready-to-enjoy experiences, from corporate appreciation to luxury property events.</p></div>
+</div>
+<div class="grid">
+<article class="card reveal"><div class="number">01</div><h3>Lead with the outcome</h3><p>Make it immediately clear that the work helps hosts create polished, memorable moments without carrying every detail themselves.</p></article>
+<article class="card reveal"><div class="number">02</div><h3>Name the buyer</h3><p>Speak to corporate teams, real estate professionals, event planners, venues, and people sourcing considered gifts.</p></article>
+<article class="card reveal"><div class="number">03</div><h3>Turn proof into visibility</h3><p>Use real product examples, event collaborations, and service details as visible proof points instead of leaving them buried in posts.</p></article>
+</div>
+</div>
+</section>
+<section class="section" id="positioning">
+<div class="shell">
+<div class="section-head">
+<div class="section-kicker">02 / Current positioning</div>
+<div><h2>Strong category cues. Room for a sharper promise.</h2><p class="lead">The supplied profile identifies Mona as “Founder | Salt &amp; Silk Luxury.” Public activity adds a richer picture of bespoke grazing boards, curated gifting, corporate events, and hospitality-led experiences.</p></div>
+</div>
+<div class="comparison">
+<div class="compare current"><div class="label">Current framing</div><h3>Founder | Salt &amp; Silk Luxury</h3><p class="small-note">Clear role and brand association, but it does not yet explain the specific occasions served or what makes the experience valuable.</p></div>
+<div class="compare"><div class="label">Proposed direction</div><h3>Luxury Grazing, Corporate Gifting &amp; Bespoke Event Experiences</h3><p class="small-note">A visitor can quickly understand the offer, the occasions, and the business context.</p></div>
+</div>
+<div class="notice">Evidence note: the supplied PDF does not include a current About section or banner image. The recommendations below do not treat those missing assets as verified profile content.</div>
+</div>
+</section>
+<section class="section" id="headline">
+<div class="shell">
+<div class="section-head">
+<div class="section-kicker">03 / Headline</div>
+<div><h2>Five headline directions.</h2><p class="lead">Each option prioritizes a slightly different audience or buying situation. Choose one primary direction rather than combining every service into a crowded headline.</p></div>
+</div>
+<div class="copybox" style="margin-bottom:16px"><div class="label">Current headline from supplied profile</div><p><strong>Founder | Salt &amp; Silk Luxury</strong></p></div>
+<div class="headline-list">
+<div class="headline"><div class="headline-num">01</div><div><h3>Founder, Salt &amp; Silk Luxury | Bespoke Grazing, Corporate Gifting &amp; Elevated Events in Las Vegas</h3><p>Best all-round option. It balances the brand, services, and local market.</p></div><button class="copy-btn" data-copy="Founder, Salt &amp; Silk Luxury | Bespoke Grazing, Corporate Gifting &amp; Elevated Events in Las Vegas">Copy</button></div>
+<div class="headline"><div class="headline-num">02</div><div><h3>Creating Memorable Corporate Gatherings Through Bespoke Grazing &amp; Thoughtful Gifting | Salt &amp; Silk Luxury</h3><p>Best for corporate teams and client-appreciation buyers.</p></div><button class="copy-btn" data-copy="Creating Memorable Corporate Gatherings Through Bespoke Grazing &amp; Thoughtful Gifting | Salt &amp; Silk Luxury">Copy</button></div>
+<div class="headline"><div class="headline-num">03</div><div><h3>Luxury Grazing Boards &amp; Curated Gifts for Corporate Events, Real Estate &amp; Special Gatherings</h3><p>Best when discovery by service and occasion matters most.</p></div><button class="copy-btn" data-copy="Luxury Grazing Boards &amp; Curated Gifts for Corporate Events, Real Estate &amp; Special Gatherings">Copy</button></div>
+<div class="headline"><div class="headline-num">04</div><div><h3>Founder at Salt &amp; Silk Luxury | Artful Food Experiences for Events, Client Gifts &amp; Celebrations</h3><p>Best for an experience-led, hospitality-forward brand story.</p></div><button class="copy-btn" data-copy="Founder at Salt &amp; Silk Luxury | Artful Food Experiences for Events, Client Gifts &amp; Celebrations">Copy</button></div>
+<div class="headline"><div class="headline-num">05</div><div><h3>Bespoke Grazing &amp; White-Glove Event Details for Las Vegas Businesses, Hosts &amp; Real Estate Professionals</h3><p>Best for emphasizing convenience and service delivery.</p></div><button class="copy-btn" data-copy="Bespoke Grazing &amp; White-Glove Event Details for Las Vegas Businesses, Hosts &amp; Real Estate Professionals">Copy</button></div>
+</div>
+</div>
+</section>
+<section class="section" id="about">
+<div class="shell">
+<div class="section-head">
+<div class="section-kicker">04 / About</div>
+<div><h2>Give visitors a clear reason to reach out.</h2><p class="lead">The About text was not present in the supplied PDF and could not be verified from the accessible public profile material. This is a proposed replacement, not a rewrite of unseen copy.</p></div>
+</div>
+<div class="copybox">
+<div class="label">Proposed About section</div>
+<p id="about-copy">At Salt &amp; Silk Luxury, the details make the gathering.
+
+I create thoughtfully curated grazing experiences and gifts for the moments people want to make memorable, from corporate celebrations and client appreciation to real estate showcases, team gatherings, and personal occasions.
+
+The work goes beyond arranging beautiful food. Each concept is shaped around the occasion, the guests, and the atmosphere you want to create. From bespoke grazing boards and curated gift boxes to styled food presentations for events, the goal is to make hosting feel polished and considered, without adding unnecessary work for your team.
+
+Salt &amp; Silk works with businesses, real estate professionals, event planners, venues, and hosts across the Las Vegas area. Depending on the experience, offerings can include tailored menus, custom presentation, delivery, setup, and pickup.
+
+Planning a corporate gathering, client gift, open house, or celebration?
+
+Send me a message here on LinkedIn and tell me what you are planning. We can shape an experience around the occasion.</p>
+<button class="copy-btn" id="copy-about">Copy About</button>
+</div>
+<p class="small-note">Before publishing, confirm the service-area wording and delivery/setup details against the current offer. No unverified performance claims or testimonials have been added.</p>
+</div>
+</section>
+<section class="section" id="featured">
+<div class="shell">
+<div class="section-head">
+<div class="section-kicker">05 / Featured section</div>
+<div><h2>Surface the proof buyers need.</h2><p class="lead">Use Featured to make the offer tangible for someone who has just discovered Mona through a post or referral.</p></div>
+</div>
+<div class="feature-grid">
+<article class="feature"><span class="tag">Option 01</span><h3>Signature grazing experiences</h3><p>Feature the large-format Signature Graze Board or Sovereign Graze with serving scale, customization, and what delivery/setup includes. Confirm current specifications before publishing.</p></article>
+<article class="feature"><span class="tag">Option 02</span><h3>Corporate gifting guide</h3><p>Feature the Stay In &amp; Chill Box or a concise gifting menu showing occasions, customization possibilities, ordering lead time, and how to inquire.</p></article>
+<article class="feature"><span class="tag">Option 03</span><h3>Event work in context</h3><p>Feature a short visual case story from a real event or collaboration, such as a corporate gathering or luxury property showcase, with permission and accurate context.</p></article>
+</div>
+</div>
+</section>
+<section class="section" id="banner">
+<div class="shell">
+<div class="section-head">
+<div class="section-kicker">06 / Banner</div>
+<div><h2>One job: communicate the experience at a glance.</h2><p class="lead">The existing banner was not supplied, so its current message cannot be assessed. The recommended direction uses an editorial food image, restrained typography, and a concise service line.</p></div>
+</div>
+<div class="comparison">
+<div class="compare current"><div class="label">What is unknown</div><h3>Current banner not available</h3><p class="small-note">No assumptions are made about its wording, design, or brand colors.</p></div>
+<div class="compare"><div class="label">New direction</div><h3>Thoughtful Gatherings. Beautifully Curated.</h3><p class="small-note">Support line: Bespoke Grazing | Corporate Gifting | Elevated Events. Use a warm, editorial palette with generous negative space.</p></div>
+</div>
+<div class="notice">A separate banner asset has been prepared. Review the crop and text carefully before uploading, as generated text can contain small lettering imperfections.</div>
+<div style="margin-top:28px">
+<div class="label">Three banner directions</div>
+<div class="banner-direction"><div class="num">01</div><div><h3>Editorial luxury</h3><p><strong>Message:</strong> Thoughtful Gatherings. Beautifully Curated.</p><p><strong>Composition:</strong> A detailed grazing spread on the right, headline in a quiet dark field on the left, restrained cream and muted gold typography.</p><p><strong>Palette/type:</strong> Deep olive, warm ivory, antique gold. Elegant serif headline with clean sans-serif support line.</p><p><strong>Safe area:</strong> Keep all text away from the far left lower corner where the profile photo may overlap. Leave generous margins for mobile cropping.</p></div></div>
+<div class="banner-direction"><div class="num">02</div><div><h3>Corporate hosting made considered</h3><p><strong>Message:</strong> Make Your Next Gathering Feel Thoughtfully Different.</p><p><strong>Composition:</strong> A clean tabletop scene with a refined board and gift box, minimal props, headline across the central-left region.</p><p><strong>Palette/type:</strong> Stone, charcoal green, soft cream. High-contrast serif title and compact sans-serif service descriptor.</p><p><strong>Safe area:</strong> Keep headline and key products inside the central 70% of the canvas.</p></div></div>
+<div class="banner-direction"><div class="num">03</div><div><h3>Gifting with intention</h3><p><strong>Message:</strong> Client Gifts They Will Remember.</p><p><strong>Composition:</strong> A premium curated gift box with ribbon, artisan accompaniments, and a small grazing board. Use the right third for the product and left side for the message.</p><p><strong>Palette/type:</strong> Warm taupe, olive, cream, a subtle brass accent. Refined serif headline and restrained sans-serif subline.</p><p><strong>Safe area:</strong> Keep text clear of the left profile-image overlap and avoid placing important details at the far edges.</p></div></div>
+</div>
+</div>
+</section>
+<section class="section">
+<div class="shell">
+<div class="section-head"><div class="section-kicker">07 / Final shift</div><div><h2>From a founder title to a clear buying story.</h2></div></div>
+<div class="comparison">
+<div class="compare current"><div class="label">Current</div><h3>Founder | Salt &amp; Silk Luxury</h3><p class="small-note">Brand and role are clear. The offer and audiences need more interpretation.</p></div>
+<div class="compare"><div class="label">Proposed</div><h3>Bespoke Grazing, Corporate Gifting &amp; Elevated Event Experiences</h3><p class="small-note">Services and use cases are visible immediately, with room for the profile content to demonstrate the quality.</p></div>
+</div>
+</div>
+</section>
+</main>
+<footer class="footer"><div class="shell"><strong>Mona Ameri</strong> · LinkedIn positioning direction for Salt &amp; Silk Luxury.<br>Recommendations are based on the supplied profile PDF and publicly visible professional material. Confirm current service details before publishing.</div></footer>
+<script>
+(function(){
+  const copyText = async (text, button) => {
+    try {
+      await navigator.clipboard.writeText(text);
+      const old = button.textContent;
+      button.textContent = 'Copied';
+      setTimeout(() => button.textContent = old, 1500);
+    } catch (e) {
+      const area = document.createElement('textarea');
+      area.value = text;
+      area.style.position = 'fixed';
+      area.style.opacity = '0';
+      document.body.appendChild(area);
+      area.select();
+      const ok = document.execCommand('copy');
+      area.remove();
+      const old = button.textContent;
+      button.textContent = ok ? 'Copied' : 'Select manually';
+      setTimeout(() => button.textContent = old, 1500);
+    }
+  };
+  document.querySelectorAll('[data-copy]').forEach(button => {
+    button.addEventListener('click', () => copyText(button.getAttribute('data-copy'), button));
+  });
+  const aboutButton = document.getElementById('copy-about');
+  aboutButton.addEventListener('click', () => copyText(document.getElementById('about-copy').innerText, aboutButton));
+  const sections = [...document.querySelectorAll('main section[id]')];
+  const links = [...document.querySelectorAll('.navlinks a')];
+  if ('IntersectionObserver' in window) {
+    const revealObserver = new IntersectionObserver(entries => entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        revealObserver.unobserve(entry.target);
+      }
+    }), {threshold: 0.12});
+    document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+    const sectionObserver = new IntersectionObserver(entries => entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        links.forEach(link => link.classList.toggle('active', link.getAttribute('href') === '#' + entry.target.id));
+      }
+    }), {rootMargin: '-25% 0px -60% 0px'});
+    sections.forEach(section => sectionObserver.observe(section));
+  } else {
+    document.querySelectorAll('.reveal').forEach(el => el.classList.add('visible'));
+  }
+})();
+</script>
+</body>
+</html>
